@@ -1,1 +1,1 @@
-[link](https://alzca.github.io/album-gallery/index.html)
+[link](https://alzca1.github.io/album-gallery/)
