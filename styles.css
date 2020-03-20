@@ -147,15 +147,21 @@ p {
   }
 }
 
-@media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0)
-{ 
+@media not all and (min-resolution: .001dpcm){
 
-  .overlay-inner {
-    background: white;
-    width: 92vmin;
-    padding: 10px 15px;
-    align-self: center;
-    margin-top: 19vh
+  @media {
+    .overlay.open {
+      display: grid;
+      grid-template-rows: 200px 200px;
+      align-items: center;
+      justify-items: center;
+    }
+    .overlay-inner {
+      background: white; 
+      width: 80vmin;
+      padding: 10px 15px;
+      align-self: center;
+      margin-top: 70vh
+    }
   }
-
 }
