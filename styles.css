@@ -146,3 +146,16 @@ p {
     margin-top: 8vh
   }
 }
+
+@media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0)
+{ 
+
+  .overlay-inner {
+    background: white;
+    width: 92vmin;
+    padding: 10px 15px;
+    align-self: center;
+    margin-top: 19vh
+  }
+
+}
